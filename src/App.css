@@ -32,7 +32,31 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* CSS APPLY */
+
+.mainDiv {
+  border: 2px solid black;
+  width: 40%;
+  margin: auto;
+  padding: 20px 20px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 4px black;
+}
+
+.formInput {
+  margin: auto;
+  margin-top: 7px;
+  border: 2px solid black;
+}
+
+.required {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: red;
 }
